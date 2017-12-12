@@ -1,9 +1,14 @@
-# Mutitasking In RTOS
+
+# Simple Task Executive
+
+# Linux
 
 # On STM32F3
 
-# Simple Task Communications
+The program performs the follwing tasks: 
 
-This code demonstrate simple 'multitasking' using the Simple Monitor code
+● Create a new task
 
-It also demonstrate simple inter-process communication using a shared global variable
+● Kill another task
+
+● Kill themselves
