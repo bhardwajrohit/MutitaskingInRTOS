@@ -11,11 +11,8 @@ SRCS = main.c
 # C to assembly language templates
 SRCS += mycode.s mytest.c
 
-# lAB 1 FILES
-SRCS += simple_task.c
-
-# lab2
-SRCS += task_executive1.c task_test1.c
+# Test files
+SRCS += task_executive.c task_test.c
 
 # Simple Monitor sources
 SRCS += monitor.c parser.c dump.c syscall.c terminal.c \
