@@ -27,7 +27,6 @@ int main(int argc, char **argv)
 
   /* Start the Watchdog */
 
-
   TerminalInit();  /* Initialize UART and USB */
   /* Configure the LEDs... */
   for(i=0; i<numLEDs; i++) {
@@ -58,8 +57,6 @@ int main(int argc, char **argv)
   }
   return 0;
 }
-
-
 /**
   * @brief  System Clock Configuration
   *         The system Clock is configured as follow : 
