@@ -20,8 +20,6 @@ void Task1(void *data)
         BSP_LED_Toggle(ledNo);                       // Toggle the value
       }                       
     }
-
-
 //printf("Hello from Task 1\n");
 }
 
