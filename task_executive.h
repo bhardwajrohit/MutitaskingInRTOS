@@ -1,6 +1,7 @@
 # ifndef TASK_EXECUTIVE_H
 # define TASK_EXECUTIVE_H
 
+//Function declaration
 int32_t TaskAdd(void (*f)(void *data), void *data);
 int32_t TaskKill(int32_t id);
 int32_t TaskCurrent(void);
