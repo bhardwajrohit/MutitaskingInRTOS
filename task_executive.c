@@ -50,7 +50,6 @@ int32_t TaskAdd(void (*f)(void *data), void *data)
  return -1;
 }
 
-
 //Set the function pointer in the array entry at the passed id equal to NULL.
 //This has the effect of marking the task as inactive.
 
@@ -83,8 +82,7 @@ int32_t TaskCurrent(void)
  currentTask = TaskNext();
  return currentTask;
 }
-
-
+// Task switcher
 int32_t TaskSwitcher(void)
 {
   TaskCurrent(); 
