@@ -1,8 +1,6 @@
 /* mytest.c:
- *
- *  Test C to assembly interface 
+ Test C to assembly interface 
  */
-
 #include <stdio.h>
 #include <stdint.h>
 #include <ctype.h>
