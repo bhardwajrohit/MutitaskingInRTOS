@@ -1,7 +1,6 @@
 @@ mycode.s :
 @@ Test code for STM32 and linking assembly to C
  
-
     .code   16
     .text                   @@ - Code section (text -> ROM)
 
